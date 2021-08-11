@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="YD_main.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+
+<body>
+
+    <!-- 電腦版Header -->
+
+    <div class="headerTop d-none d-md-block">
+        <div class="navbg ">
+            <img src="/png/navbar_bg_01.png" alt="">
+        </div>
+        <div class="container navbar-adjust">
+            <div class=" row d-flex justify-content-between">
+                <div class="logo">
+                    <a href="#">
+                        <img src="/png/logo_35.png" alt="">
+                    </a>
+                </div>
+                <div class="btn">
+                    <button class="btn btn-danger">免費體驗 Free</button>
+                    <button class="btn btn-danger">Login 登入</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 手機板Header -->
+    <div class="headerMobile d-lg-none">
+        <div class="boxMobile">&nbsp</div>
+        <div class="container">
+            <div class="navMobile row justify-content-around">
+
+                <div class="iconMobile">
+                    <a href="">
+                        <img src="/png/outline_menu_black_24dp.png" alt="">
+                    </a>
+                </div>
+                <div class="logoMobile">
+                    <a href="">
+                        <img src="/png/logo_text.gif" alt="">
+                    </a>
+                </div>
+                <div class="srarchMobile">
+                    <a href="">
+                        <img src="/png/outline_search_black_24dp.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <!-- 麵包屑 -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-danger">
+                <li class="breadcrumb-item"><a href="#">首頁</a></li>
+                <li class="breadcrumb-item"><a href="#">會員專區</a></li>
+                <li class="breadcrumb-item active text-dark" aria-current="page">我的課程</li>
+            </ol>
+        </nav>
+
+        <!-- 影片部分 -->
+        <div class='embed-container'><iframe src='https://www.youtube.com/embed//NfIe2WmQD5E' frameborder='0'
+                allowfullscreen></iframe></div>
+
+        <!--3個 icon -->
+        <div class="p-3 mb-2 bg-danger">
+            <div class="row">
+                <div class="d-flex justify-content-lg-between">
+                    <div>
+                        <i class="fas fa-users">
+                            <p>106 位同學</p>
+                        </i>
+                    </div>
+
+                    <div>
+                        <i class="far fa-clock">
+                            <p class="font-weight-bold">135 分鐘</p>
+                        </i>
+                    </div>
+
+                    <div>
+                        <i class="fas fa-comments">
+                            <p>即時發問</p>
+                        </i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--帶下拉選單的分頁標籤-->
+        <div class="row m-auto justify-content-center">
+            <ul class="drop-down-menu container-fluid nav nav-tabs" role="tablist">
+                <li class="dropdown active d-flex">
+                    <a class="dropdown-toggle" data-toggle="tab" data-toggle="dropdown" href=" #">課程章節</a>
+                    <ul>
+                        <li>
+                            <a href="#">章節 1 - 改變身形第一步，了解基本身體組成
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">章節 2 - 瞭解肌肉成長的理論及解讀
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">章節 3 - 動態伸展及其重要性
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">章節 4 - 胸肌的訓練方式
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a data-toggle="tab" href="#">我的課程</a>
+                    <ul>
+                        <li>
+                            <a href="#">有氧課程</a>
+                            <ul>
+                                <li>
+                                    <a href="#">新手能上手！居家健身，肌群練習一次到位
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">線上課程｜居家有氧動起來 Dance Play
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">Dance Aerobic舞動有氧</a>
+                                </li>
+                                <li>
+                                    <a href="#">Zumba 有氧</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a data-toggle="tab" href="#">瑜珈課程</a>
+                            <ul>
+                                <li>
+                                    <a href="#">超 EAZY！在家初學的紓壓瑜伽
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">凱蒂瑜珈與穎盈中醫師：養生療癒的經絡瑜珈
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">Katie 凱蒂流動瑜珈：啟動熱能，身心修復
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">在地SEO</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">SEO 搜尋引擎優化</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">增肌課程</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">問題討論</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="row">
+            <section class="col-6">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit earum veritatis voluptas libero est et,
+                consequuntur porro nulla ipsam alias corporis quis optio, dolorem consectetur a accusamus nisi
+                laudantium
+                itaque.
+                Sed harum fugiat iure totam atque adipisci ullam, sint non voluptatibus deleniti blanditiis molestias
+                soluta
+                quo
+                possimus beatae corrupti officiis quia asperiores ad amet cupiditate. Cumque impedit quas molestias
+                beatae.
+                Voluptas doloremque, id dolore deleniti unde iusto placeat error vero veniam quisquam a voluptatibus est
+                architecto dolores necessitatibus beatae mollitia similique eligendi quod ipsam soluta laborum numquam
+                minima.
+                Architecto, ullam?
+                Quisquam fugiat nihil unde sed in, inventore doloremque sequi provident molestias impedit officiis
+                quidem
+                eaque
+                minima veritatis quia accusantium tenetur eveniet ducimus similique aspernatur laboriosam nulla alias.
+                Nulla,
+                distinctio rerum.
+                Reprehenderit facilis veritatis consequatur, autem nihil inventore commodi sunt est, voluptates saepe
+                quia?
+                Natus facilis, amet asperiores ad iste nam nesciunt, quis inventore deleniti, quas vel laborum iure quos
+                suscipit?
+                Esse saepe voluptates molestiae ratione vero alias fugiat ipsam odio, tempore repudiandae dolorum
+                deserunt.
+                Ab,
+                adipisci. Iste dolores ipsa, a ipsum iusto fugit, consequuntur consectetur, praesentium molestiae aut at
+            </section>
+
+            <figure class="col-6" id="YD_figure" src="">
+
+            </figure>
+
+        </div>
+
+
+
+    </div>
+
+    <!-- 電腦版Footer -->
+    <footer class="footer d-none d-md-block">
+        <div class="container">
+            <div class="row gap justify-content-between">
+
+                <!-- 廢話 -->
+                <div class="footercon1">
+                    <div class="about">
+                        <p>
+                            大疫情時代衝擊著社會，除了健身更需要建心。我們必須學著與
+                            困難共存，找出全新的辦法去鍛鍊，讓自己更快，更高，更強!
+                        </p>
+                    </div>
+
+                </div>
+                <div class="footercon">
+                    <!-- 第一段footer -->
+                    <div class="footercon1 dpk ">
+                        <div class="footerconh2 ">
+                            <h2 class="footerh2">UNI-EASY</h2>
+                        </div>
+
+                        <div class="footercon">
+                            <a href="#">
+                                <p>
+                                    會員專區
+                                </p>
+                            </a>
+                            <a href="#">
+                                <p>
+                                    購物車
+                                </p>
+                            </a>
+                            <a href="#">
+                                <p>
+                                    商品
+                                </p>
+                            </a>
+                            <a href="#">
+                                <p>
+                                    課程
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 第二段footer -->
+                    <div class="footercon2 dpk">
+                        <div class="footerconh2">
+                            <h2 class="footerh2">
+                                關於課程
+                            </h2>
+                        </div>
+
+                        <div class="footercon">
+                            <a href="#">
+                                <p>
+                                    瑜珈課程
+                                </p>
+                            </a>
+                            <a href="#">
+                                <p>
+                                    有氧運動
+                                </p>
+                            </a>
+                            <a href="#">
+                                <p>
+                                    增肌減重
+                                </p>
+                            </a>
+                            <a href="#">
+                                <p>
+                                    其他資訊
+
+                                </p>
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+            <div class="copyright">
+                <p class="copyrightText">
+                    <a href="">
+                        Copyright 2003-2021, Decathlon Group or its Affiliates.  隱私權政策
+                    </a>
+                </p>
+            </div>
+
+
+    </footer>
+
+    <!-- 手機板Footer -->
+    <footer class="footerMobile  d-lg-none">
+        <div class="container">
+            <div class="footerconMobile row justify-content-around">
+                <div class="personMobile">
+                    <a href="#">
+                        <img src="/png/outline_person_outline_white_24dp.png" alt="">
+                    </a>
+                </div>
+
+                <div class="homeMobile">
+                    <a href="#">
+                        <img src="/png/outline_home_white_24dp.png" alt="">
+                    </a>
+                </div>
+
+                <div class="shoppingcarMobile">
+                    <a href="#">
+                        <img src="/png/outline_shopping_cart_white_24dp.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
