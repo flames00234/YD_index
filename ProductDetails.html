@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 </head>
 
 <body>
@@ -71,158 +72,163 @@
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb bg-danger">
                 <li class="breadcrumb-item"><a href="#">首頁</a></li>
-                <li class="breadcrumb-item"><a href="#">會員專區</a></li>
-                <li class="breadcrumb-item active" aria-current="page">我的課程</li>
+                <li class="breadcrumb-item"><a href="#">乳清蛋白</a></li>
+                <li class="breadcrumb-item active text-dark font-weight-bold" aria-current="page">[英國 Myprotein]
+                    濃縮乳清蛋白(2.5kg/包) 奶茶
+                </li>
             </ol>
         </nav>
 
         <!-- 影片部分 -->
-        <div class='embed-container'><iframe src='https://www.youtube.com/embed//NfIe2WmQD5E' frameborder='0'
+        <div class='embed-container mt-2'><iframe src='https://www.youtube.com/embed//NfIe2WmQD5E' frameborder='0'
                 allowfullscreen></iframe></div>
 
         <!--3個 icon -->
-        <div class="p-3 mb-2 bg-danger text-white">
-            <i class="fas fa-users">106 位同學</i>
-            <i class="far fa-clock"></i>
-            <i class="fas fa-comments"></i>
+        <div class="p-3 mb-2 bg-danger ">
+            <div class="row">
+                <div class="d-flex justify-content-center" id="YD-threeicon">
+                    <div class="YD-iconwrap">
+                        <i class="fas fa-users">
+                            <p>106 位同學</p>
+                        </i>
+                    </div>
+
+                    <div class="YD-iconwrap">
+                        <i class="far fa-clock">
+                            <p class="font-weight-bold">135 分鐘</p>
+                        </i>
+                    </div>
+
+                    <div class="YD-iconwrap">
+                        <i class="fas fa-comments">
+                            <p>即時發問</p>
+                        </i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--帶下拉選單的分頁標籤-->
+        <div class="row mt-3">
+            <ul class="drop-down-menu container-fluid nav nav-tabs" role="tablist">
+                <li class="dropdown active d-flex">
+                    <a class="dropdown-toggle" data-toggle="tab" data-toggle="dropdown" href=" #">課程章節</a>
+                    <ul>
+                        <li>
+                            <a href="#">章節 1 - 改變身形第一步，了解基本身體組成
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">章節 2 - 瞭解肌肉成長的理論及解讀
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">章節 3 - 動態伸展及其重要性
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">章節 4 - 胸肌的訓練方式
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a data-toggle="tab" href="#">我的課程</a>
+                    <ul>
+                        <li>
+                            <a href="#">有氧課程</a>
+                            <ul>
+                                <li>
+                                    <a href="#">新手能上手！居家健身，肌群練習一次到位
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">線上課程｜居家有氧動起來 Dance Play
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">Dance Aerobic舞動有氧</a>
+                                </li>
+                                <li>
+                                    <a href="#">Zumba 有氧</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a data-toggle="tab" href="#">瑜珈課程</a>
+                            <ul>
+                                <li>
+                                    <a href="#">超 EAZY！在家初學的紓壓瑜伽
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">凱蒂瑜珈與穎盈中醫師：養生療癒的經絡瑜珈
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">Katie 凱蒂流動瑜珈：啟動熱能，身心修復
+                                    </a>
+                                    <ul>
+                                        <li>
+                                            <a href="#">減輕日常生活壓力所累積的疼痛和緊繃感
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">提升身體柔軟度、靈活性與力量
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">增肌課程</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a style="border-right: #ef5c28 1px solid;" href="#">問題討論</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="row mb-5" id="YD-section-wrap">
+            <section class="col-6 mb-3" id="YD-section">
+                <br>
+                <h3 class="mt-3 mb-3">【章節 1】 改變身形第一步，了解基本身體組成
+                </h3>
+                <h4>
+                    「骨架、肌肉、脂肪」，是開始健身之前、認識自己身體的重要三元素。
+                    在課程一開始，教練會詳細說明「什麼是可以透過努力改變的」以及「什麼是不能改變的」；
+                    讓大家可以給自己訂下一個明確且可能達成的目標，而有了目標之後，
+                    也可以知道需要透過什麼樣的訓練或飲食方式，才能達到預期的效果。
+                </h4>
+                <h4>
+                    <br>
+                    ★上課前的準備
+                    <br><br>
+                    彈力繩與彈力帶，初學者建議購買輕阻力的彈力繩與彈力帶（如：5 公斤的彈力繩 和 7 公斤的彈力帶）即可。
+                    <br>
+                    <br>
+
+                    ★哪些人適合這堂課？
+                    <br>
+                    <br>
+                    初學者到有健身經驗 1-2 年的朋友，想改變體態的人、沒時間上健身房的人、或是運動一段時間不見效果的朋友們，很適合這門課程。
+                </h4>
+
+            </section>
+            <img class="col-6" id="YD-img" src="./img/photo-1617634188383-0c75b1b80f94.jpg">
+
+            </img>
+
         </div>
 
 
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit earum veritatis voluptas libero est et,
-        consequuntur porro nulla ipsam alias corporis quis optio, dolorem consectetur a accusamus nisi laudantium
-        itaque.
-        Sed harum fugiat iure totam atque adipisci ullam, sint non voluptatibus deleniti blanditiis molestias soluta quo
-        possimus beatae corrupti officiis quia asperiores ad amet cupiditate. Cumque impedit quas molestias beatae.
-        Voluptas doloremque, id dolore deleniti unde iusto placeat error vero veniam quisquam a voluptatibus est
-        architecto dolores necessitatibus beatae mollitia similique eligendi quod ipsam soluta laborum numquam minima.
-        Architecto, ullam?
-        Quisquam fugiat nihil unde sed in, inventore doloremque sequi provident molestias impedit officiis quidem eaque
-        minima veritatis quia accusantium tenetur eveniet ducimus similique aspernatur laboriosam nulla alias. Nulla,
-        distinctio rerum.
-        Reprehenderit facilis veritatis consequatur, autem nihil inventore commodi sunt est, voluptates saepe quia?
-        Natus facilis, amet asperiores ad iste nam nesciunt, quis inventore deleniti, quas vel laborum iure quos
-        suscipit?
-        Esse saepe voluptates molestiae ratione vero alias fugiat ipsam odio, tempore repudiandae dolorum deserunt. Ab,
-        adipisci. Iste dolores ipsa, a ipsum iusto fugit, consequuntur consectetur, praesentium molestiae aut at
-        voluptate.
-        Praesentium laudantium veritatis atque eos, culpa deserunt placeat nulla alias quia laboriosam illo excepturi ut
-        tenetur, quam accusantium necessitatibus fugit molestiae quos commodi quisquam unde? Commodi minima
-        necessitatibus architecto fugiat.
-        Adipisci nemo vitae alias possimus voluptatibus necessitatibus nulla velit id nobis accusantium quae atque quos,
-        illum beatae dolorem ab quam quia culpa unde cum et animi veritatis fugiat qui. Laboriosam.
-        Ad animi sit magni quasi quidem vitae. Earum sint commodi accusamus delectus quaerat explicabo eius quidem rem
-        rerum omnis? Voluptates eligendi sapiente nemo molestiae ab eaque nesciunt laboriosam, cum illum.
-        Similique commodi nostrum vitae ducimus alias nobis id eveniet voluptatibus temporibus repudiandae cupiditate at
-        nam, hic quidem sed quasi excepturi expedita quos aliquid qui, quod iure maxime debitis! Reiciendis, aliquid.
-        Ratione itaque aliquam corrupti blanditiis et porro, maxime voluptatem, maiores sit numquam magni ex minima quas
-        deserunt non! Praesentium laborum sapiente laudantium ipsum voluptatibus dolorem, maiores fugit animi eum
-        suscipit?
-        Beatae aut explicabo nobis in ab! Harum aperiam reiciendis facere voluptatibus libero provident officiis, esse
-        debitis aliquid minima perspiciatis tenetur tempora voluptate exercitationem labore, commodi totam, sapiente
-        modi! Error, minus.
-        Non nemo ipsam ratione nesciunt distinctio, veniam debitis ab repellendus, autem exercitationem dolor reiciendis
-        eligendi quam sequi deserunt laboriosam. Modi maiores voluptates magni veritatis? Quam quidem corporis pariatur
-        totam ex!
-        Itaque minima eum ea dolorum, eaque deleniti dolores est harum numquam esse. Sunt, amet laudantium quis aliquid
-        ea delectus impedit quos veritatis mollitia labore molestiae optio corrupti odio voluptate voluptatem!
-        Earum ea ad, perspiciatis laborum fugit voluptates sunt similique dolor voluptatem temporibus, vitae dolorum
-        error est! Harum molestiae obcaecati itaque nisi, fuga qui! Sequi eaque consequatur quae ad voluptates quaerat!
-        Possimus ab magnam odio exercitationem excepturi obcaecati similique veniam aperiam totam laborum perspiciatis
-        assumenda at nam id corporis nulla quia, vitae nemo distinctio omnis deleniti adipisci modi. Modi, atque quasi.
-        Vitae enim eum ab unde a omnis provident rem dignissimos reiciendis amet dolorem quaerat, deserunt cum corrupti
-        maxime mollitia ad vel? Inventore earum deleniti repellat asperiores adipisci eaque qui voluptatibus!
-        Soluta ipsum pariatur excepturi ex nisi saepe perferendis voluptates minima, animi alias qui molestias est ullam
-        dolore quaerat architecto omnis asperiores. Ad ab iste, dolorum maiores iusto quisquam vitae velit!
-        Pariatur animi voluptas possimus sunt ratione alias sapiente? Facilis, incidunt! Doloremque fugit officiis
-        nobis? Eligendi aperiam dolore excepturi repellat vero illum aspernatur, sunt, dolor neque at ipsam aut fugit
-        cumque?
-        Nisi sint consequatur mollitia cupiditate veritatis quibusdam, consequuntur aperiam dolorum, quis debitis iusto
-        aut commodi adipisci neque, incidunt minima illo assumenda reiciendis impedit. Suscipit aspernatur vel
-        reiciendis voluptates! Libero, quos.
-        Dolor sed fugit quo laudantium, quas in, nulla consequatur dolore hic magnam assumenda consequuntur sapiente
-        iusto eveniet, sit soluta maxime veritatis nostrum corrupti. Quidem, cum. Reprehenderit necessitatibus
-        praesentium error rerum?
-        Ducimus culpa ex libero doloribus quaerat repudiandae, modi eligendi voluptates velit ea consequuntur atque,
-        porro voluptate cupiditate et explicabo quas voluptatem temporibus hic quod aliquam autem. Similique
-        exercitationem rerum minus.
-        Tempore deleniti atque, dignissimos cupiditate, ducimus illo reprehenderit, minima perferendis quidem voluptas
-        unde magni eos similique voluptates error praesentium aperiam labore quia sed. Architecto repellat pariatur
-        doloribus! Doloribus, assumenda provident!
-        Praesentium harum voluptates nisi beatae iste facere optio fuga illo porro ex aut magni, quam suscipit commodi
-        sunt ratione ut odit ad ea et voluptatem doloremque temporibus! Aut, dolore dolorem?
-        Perferendis assumenda tempora et nam enim pariatur exercitationem praesentium consequuntur alias!
-        Exercitationem, sequi doloribus consequatur fuga dignissimos facilis suscipit nesciunt est quas cupiditate
-        deleniti! Autem praesentium fugit laborum omnis totam.
-        Repudiandae fuga, eligendi eum voluptatem ipsum odit debitis! Saepe laudantium porro odio nesciunt sapiente,
-        illo, quibusdam natus eos nemo tenetur ducimus fugit consequuntur hic commodi harum esse sequi tempora impedit?
-        Rem magni voluptatibus provident. Quo illum veniam velit laudantium ducimus natus excepturi nam aliquid nobis
-        quisquam molestias quae odio, dolorem perferendis reprehenderit. Eveniet id voluptate nesciunt sed assumenda
-        sint recusandae.
-        Mollitia sapiente ex consectetur quae nihil aliquam necessitatibus blanditiis provident inventore earum dicta
-        quod, in harum officia odit voluptatibus? Nihil aspernatur maiores sed nesciunt quo minus nulla error qui?
-        Recusandae.
-        Debitis eos ad soluta et ducimus nam veritatis illo, ipsam numquam. Laboriosam necessitatibus ipsa et ut
-        voluptatum, magni, praesentium molestias eum corrupti aliquid expedita iure soluta consequuntur a dolor beatae!
-        Inventore nostrum recusandae eius ratione, voluptatem maxime explicabo voluptas id sed officiis consequuntur,
-        exercitationem obcaecati error veritatis non corrupti excepturi eaque. Doloremque, quas earum. Sunt commodi
-        veniam delectus qui hic?
-        Earum debitis libero qui sed impedit, tempore, repellat nisi exercitationem porro ipsa cum! Suscipit deserunt
-        enim tempore obcaecati minus reiciendis quo ipsum vitae perspiciatis cupiditate quam voluptatibus, eaque
-        excepturi ducimus.
-        Doloribus unde libero vel neque quibusdam repellendus, eos consequatur quos magnam, vitae dolorum! Ab
-        exercitationem molestiae maxime cumque est a rerum, dolorem voluptate quos magnam quia quis, magni, quibusdam
-        nihil?
-        Reprehenderit mollitia vitae ea, quidem molestiae fugiat ipsam sed obcaecati quis saepe veritatis adipisci
-        corporis excepturi, omnis temporibus! Obcaecati natus rerum tenetur cupiditate sunt debitis doloremque
-        consequuntur esse possimus eius!
-        Expedita molestiae a, porro excepturi dignissimos veniam possimus quasi id, ea ipsa perferendis voluptas fugiat
-        aliquid numquam eligendi dolorum blanditiis obcaecati voluptate consequatur cupiditate, adipisci incidunt
-        necessitatibus quo. A, non?
-        Tenetur animi adipisci veritatis, quia maiores nisi vero enim qui, quisquam provident odit. Rem reiciendis neque
-        sequi animi voluptates ipsam? Quos, sed! Dolorem accusantium suscipit omnis nihil consequatur, nam quidem?
-        Consectetur reiciendis voluptates commodi amet esse, itaque consequuntur eveniet. In, dolorem libero ratione sed
-        reiciendis numquam quo consequatur, optio hic labore molestiae laudantium provident dolorum nostrum non facere
-        nulla voluptates?
-        Cumque soluta, voluptatem ipsa quos perspiciatis quidem saepe sunt deleniti facilis. Provident, corporis minus
-        accusamus voluptate aliquam fugit omnis, dolor vitae eligendi alias assumenda aliquid eius dolorum dolore autem
-        culpa.
-        Repellat corrupti distinctio iste quis, tempore assumenda porro explicabo culpa dicta corporis adipisci
-        voluptatibus ex neque cupiditate nemo suscipit, aperiam debitis dolorum facere doloribus nam, recusandae tenetur
-        quos eligendi? Labore!
-        Ab libero officia qui, adipisci eligendi sint omnis blanditiis quod at culpa, illo explicabo nisi. Neque, nisi
-        tempore voluptate consectetur officia, minus fugit ipsam dolor, iste eaque quam quisquam repellendus.
-        Fugit eveniet voluptatum vitae commodi recusandae cupiditate placeat quidem iure molestias officiis esse quis
-        maiores dolor assumenda perspiciatis quae libero laboriosam nemo, veritatis labore voluptates nobis doloremque
-        ratione. Repellat, dolorum.
-        Ut, qui illum soluta veniam porro praesentium eos deleniti! Non nisi, nostrum pariatur rerum illo ex iste.
-        Tempore, sit doloribus. Iusto harum consequuntur doloremque repellat, nisi aspernatur doloribus quia fugit!
-        Magni nostrum aperiam voluptate sint recusandae rem cum perferendis deleniti temporibus delectus ut quia velit
-        totam facere reprehenderit expedita quo nemo fugiat praesentium aliquid consequuntur repellendus, ab doloremque!
-        Nobis, tempore.
-        Eveniet fugit similique molestias commodi nostrum adipisci laudantium. Magnam, officiis non voluptate, odit
-        error, deleniti esse aut ipsum facere dicta corrupti vel corporis iusto quibusdam fugiat facilis repellat
-        aperiam temporibus.
-        Tempore labore aliquam id, eum neque vel quam nobis? Asperiores molestias, fugit totam odio expedita iure harum
-        voluptatibus vel alias culpa libero consequuntur labore nobis quo consequatur, mollitia architecto temporibus!
-        Consectetur dolores magnam, possimus totam quibusdam assumenda vel ratione error dolor amet quod maxime non enim
-        omnis illum earum doloremque et laudantium repellendus. Deleniti molestias sapiente est ea nostrum tenetur!
-        Rerum rem architecto quisquam autem voluptas eveniet suscipit ullam debitis. Ut iusto ipsa provident commodi
-        pariatur ipsum soluta voluptatibus voluptates, dignissimos vitae consequatur quas eius tempore porro
-        consequuntur cumque reiciendis!
-        Distinctio sit, aliquid non vel, rerum saepe corporis eos et magnam maxime omnis optio ratione reiciendis eum
-        itaque, eaque quae culpa. Totam ex magnam placeat, dolorem accusamus quod at iusto.
-        Distinctio, ipsam? Voluptas omnis explicabo odit quasi fuga exercitationem nostrum quisquam ab deserunt
-        voluptatibus at, eos nisi? Architecto, sequi deleniti saepe aspernatur voluptas natus, quasi modi accusamus rem
-        temporibus similique.
-        Nihil, magnam! Voluptate deserunt fugiat similique animi aliquam laudantium, ut quasi eaque voluptatibus in
-        obcaecati maiores placeat suscipit nemo molestiae amet inventore architecto distinctio delectus nostrum laborum
-        incidunt! Inventore, hic.
-        Ipsam aliquam rem labore aspernatur, dolorem harum nemo deserunt molestiae corrupti! Cum perferendis expedita
-        voluptas nihil consequuntur corrupti quisquam, impedit obcaecati modi esse eius nobis voluptatum ad soluta.
-        Eaque, quas.
-        Suscipit perspiciatis earum est animi eaque voluptatem iste nihil, rerum voluptate labore repudiandae excepturi
-        beatae saepe mollitia eos accusantium harum pariatur consequatur reprehenderit fugiat. Explicabo cupiditate quae
-        ur consectetur!
+
     </div>
 
     <!-- 電腦版Footer -->
@@ -349,6 +355,17 @@
         </div>
     </footer>
 
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 
 </body>
 
