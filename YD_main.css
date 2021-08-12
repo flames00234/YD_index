@@ -144,6 +144,7 @@ ul {
 
   #YD-section-wrap{
   border:1px solid #dc3545;
+  width: 100%;
   height:auto;
   overflow: hidden;
 }
@@ -162,16 +163,13 @@ text-align:left;
   line-height:150%;
   
 }
-#YD-section > img{
+
+#YD-img{
   height: auto;
-  float: right;
+  width: 100%;
+  text-align: right;
 }
 
-
-#YD-section-wrap{
-  margin-top: 0;
-  padding-top: 0;
-}
 
 /* --------Footer-------- */     
        
