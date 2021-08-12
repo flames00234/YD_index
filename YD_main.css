@@ -42,6 +42,10 @@
 
 /* <!--3個 icon --> */
 
+#YD-threeicon> .YD-iconwrap{
+justify-content: space-evenly;
+}
+
 .fa,.far,.fas {
 color: black;
 font-size:50px;
@@ -64,11 +68,14 @@ ul {
   ul.drop-down-menu {
     display: inline-block;
     font-size: 16px;
+
   }
   
   ul.drop-down-menu li {
     position: relative;
     white-space: nowrap;
+    border-top: #ef5c28 1px solid;
+    border-left: #ef5c28 1px solid;
   }
   
   ul.drop-down-menu>li:last-child {
@@ -121,7 +128,7 @@ ul {
     /*第三層以後的選單出現位置與第二層不同*/
     z-index: 999;
     top: 10px;
-    left: 72%;
+    left: 71%;
   }
   
   ul.drop-down-menu ul {
@@ -134,9 +141,32 @@ ul {
     display: block;
   }
 
-#YD_figure{
-border: black;
+  #YD-section-wrap{
+  border:1px solid #dc3545;
+  height:auto;
+  overflow: hidden;
 }
+#YD-section{
+text-align:left;
+}
+
+#YD-section > h3{
+  font-weight: bolder;
+  letter-spacing:1px;
+
+}
+
+#YD-section > h4{
+  letter-spacing:1px;
+  line-height:150%;
+  
+}
+#YD-section > img{
+  display:block;
+  width: 100%;
+  height: auto;
+}
+
 
 /* --------Footer-------- */     
        
