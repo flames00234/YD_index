@@ -10,12 +10,372 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
         integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="YD_main.css">
     <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 </head>
 
 <body>
+
+    <!-- 電腦版Header -->
+
+    <div class="headerTop d-none d-md-block">
+        <div class="navbg ">
+            <img src="/png/navbar_bg_01.png" alt="">
+        </div>
+        <div class="container navbar-adjust">
+            <div class=" row d-flex justify-content-between">
+                <div class="logo">
+                    <a href="#">
+                        <img src="/png/logo_35.png" alt="">
+                    </a>
+                </div>
+                <div class="btn">
+                    <button class="btn btn-danger">免費體驗 Free</button>
+                    <button class="btn btn-danger">Login 登入</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- 手機板Header -->
+    <div class="headerMobile d-lg-none">
+        <div class="boxMobile">&nbsp</div>
+        <div class="container">
+            <div class="navMobile row justify-content-around">
+
+                <div class="iconMobile">
+                    <a href="">
+                        <img src="/png/outline_menu_black_24dp.png" alt="">
+                    </a>
+                </div>
+                <div class="logoMobile">
+                    <a href="">
+                        <img src="/png/logo_text.gif" alt="">
+                    </a>
+                </div>
+                <div class="srarchMobile">
+                    <a href="">
+                        <img src="/png/outline_search_black_24dp.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <!-- 麵包屑 -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-danger">
+                <li class="breadcrumb-item"><a href="#">會員專區</a></li>
+                <li class="breadcrumb-item"><a href="#">有氧課程</a></li>
+                <li class="breadcrumb-item active text-dark font-weight-bolder" aria-current="page">新手能上手！居家健身，肌群練習一次到位
+                </li>
+            </ol>
+        </nav>
+
+
+        <!-- 放商品詳細資訊的區塊 -->
+        <div class="col-12 mt-5">
+            <div class="row">
+                <!--商品圖-->
+                <div class="col-lg-6 pt-3">
+                    <div class="YD-item">
+                    </div>
+                    <div class="YD-CourseImg">
+                    </div>
+                </div>
+
+                <!--品名-->
+                <div class="col-6 mb-5 ml-0">
+                    <div class="row p-3 border-bottom">
+                        <div class="col-7">
+                            <h3 class="font-weight-bold">新手能上手！居家健身，肌群練習一次到位</h3>
+                        </div>
+                        <div class="col-5 ">
+                            <h2 class="font-weight-bold text-danger">NT: 1800</h2>
+                        </div>
+                    </div>
+
+                    <!--規格-->
+                    <div class="input-group mb-2 mt-3 border-bottom">
+                        <!--按鈕 -->
+
+                        <button type="button" class="btn btn-danger mb-3 mr-3 mt-0" id="btn_set_cart" data-prod-id="640"
+                            data-prod-name="可口可樂印花T恤-01-男"
+                            data-prod-thumbnail="https://s3.lativ.com.tw/i/52891/52891_M_01_0_n.jpg"
+                            data-prod-price="199">直接購買</button>
+
+                        <button type="button" class="btn btn-danger mb-3 ml-4 mr-3 mt-0" id="btn_follow"
+                            data-prod-id="640">加入購物車</button>
+                    </div>
+
+                    <!--按鈕群 -->
+                    <div class="row p-3 border-bottom">
+                        <p>
+                            你將可以學到 : <br><br>
+                            ★了解肌肉的控制，在相對安全的情況有效的達到肌肉訓練的效果。<br><br>
+                            ★了解如何在家健身，也能達到預期的肌肉訓練效果。<br><br>
+                            ★了解如何徒手和運用工具（彈力繩、彈力帶）來進行不同強度的健身。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!--輪播牆 -->
+    <div class="container p-3 mb-2 bg-danger mt-3">
+        <div class="row">
+            <div class="d-flex" id="YD-Carousel">
+                <div id="wrapper">
+                    <div id="carousel">
+                        <div id="content">
+                            <img class="item"
+                                src="https://lh3.googleusercontent.com/0OynDYRoCaQWJIUyiOrUVeoub0mLNrDUcUZrJXF2WHQD77o-F_g2EnqZqVevO954WzD7mC5qTg=w512-h512-l90-rj" />
+                            <img src="https://lh3.googleusercontent.com/e2WxnnYi-F9oN4e0HdLosbq8nlxezfIlxAze2Ba0zE2JR8Es7j-4tNtXc9atwL51FHpaTMtDgmc=w544-h544-l90-rj"
+                                class="item" />
+                            <img src="https://lh3.googleusercontent.com/u6ldIRFJNC856cVGIRsj8It7kz8_0WSTsbdJEOdwjkzZg0lLnn2fFFdhdkCf85HG9O0s2Ak72g=w512-h512-l90-rj"
+                                class="item" />
+                            <img src="https://lh3.googleusercontent.com/nlaN4QEwrQivvVocTsTmksMAaLdiOYRI6fqWgEvr8HeszJdwyOLWSMtVZQkFP_jIO47g-sbZ=w512-h512-l90-rj"
+                                class="item" />
+                            <img src="https://lh3.googleusercontent.com/ivQK-VEDrumpUKopbgrZKKIP70_i0B0r1LLa7PM1ugqtWJcGDRt8yxndLAVKZn3k5djl6_SS2w=w512-h512-l90-rj"
+                                class="item" />
+                            <img src="https://lh3.googleusercontent.com/mH0AFUazs5cUFTMGmXW-yCIhqSgJHbYqt08OjMgON0-x_Q5nsxhOzVwMHyZJ1e3dziP_ja7_=w544-h544-l90-rj"
+                                class="item" />
+                            <img src="https://lh3.googleusercontent.com/H3yFco2fMxBxlQ7wZ7-_OUA8zO8hmqTU9Fik9_lwA6L5pCP_JcCI0OR2XmdAUPzZS_XsayPDnw=w512-h512-l90-rj"
+                                class="item" />
+                            <img src="https://lh3.googleusercontent.com/URcwKIhfH3rPoeSfAKfsuKTwZzyNUv_f9TiLL3Nddscv-cufGX3kh6G8FzkJHzvgWrxKMu_Y36A=w512-h512-l90-rj"
+                                class="item" />
+                            <img src="https://lh3.googleusercontent.com/BkARURW3Om0LVqlubLu1ziGrfKJrkYpSLEQflgH29lmTooSvXQjsHaWnwH1srAPlIMyJKjWqFIU=w512-h512-l90-rj"
+                                class="item" />
+                            <img src="https://lh3.googleusercontent.com/JMSMnpSyPX1ZTgodYRg5y98ZeZ5AUMBKf2TMRXD88_i6Qkj6-CwfkqmE0X4THMIPVydnYBNVUg=w512-h512-l90-rj"
+                                class="item" />
+                        </div>
+                    </div>
+                    <button id="prev">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="none" d="M0 0h24v24H0V0z" />
+                            <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                        </svg>
+                    </button>
+                    <button id="next">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <path fill="none" d="M0 0h24v24H0V0z" />
+                            <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                        </svg>
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--masonry -->
+
+
+    <div class="masonry container mt-5">
+        <div class="mItem">
+            <img src="./img/class02.jpg">
+        </div>
+
+        <div class="mItem">
+            <img src="./img/class03.jpg">
+        </div>
+
+        <div class="mItem">
+            <img src="./img/class04.jpg">
+        </div>
+
+        <div class="mItem">
+            <img src="./img/class05.jpg">
+        </div>
+
+        <div class="mItem">
+            <img src="./img/class06.jpg">
+        </div>
+        <div class="mItem">
+            <img src="./img/class07.jpg">
+        </div>
+
+    </div>
+
+
+
+
+    <!-- 電腦版Footer -->
+    <footer class="footer d-none d-md-block">
+        <div class="container">
+            <div class="row gap justify-content-between">
+
+                <!-- 廢話 -->
+                <div class="footercon1">
+                    <div class="about">
+                        <p>
+                            大疫情時代衝擊著社會，除了健身更需要建心。我們必須學著與
+                            困難共存，找出全新的辦法去鍛鍊，讓自己更快，更高，更強!
+                        </p>
+                    </div>
+
+                </div>
+                <div class="footercon">
+                    <!-- 第一段footer -->
+                    <div class="footercon1 dpk ">
+                        <div class="footerconh2 ">
+                            <h2 class="footerh2">UNI-EASY</h2>
+                        </div>
+
+                        <div class="footercon">
+                            <a href="#">
+                                <p>
+                                    會員專區
+                                </p>
+                            </a>
+                            <a href="#">
+                                <p>
+                                    購物車
+                                </p>
+                            </a>
+                            <a href="#">
+                                <p>
+                                    商品
+                                </p>
+                            </a>
+                            <a href="#">
+                                <p>
+                                    課程
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- 第二段footer -->
+                    <div class="footercon2 dpk">
+                        <div class="footerconh2">
+                            <h2 class="footerh2">
+                                關於課程
+                            </h2>
+                        </div>
+
+                        <div class="footercon">
+                            <a href="#">
+                                <p>
+                                    瑜珈課程
+                                </p>
+                            </a>
+                            <a href="#">
+                                <p>
+                                    有氧運動
+                                </p>
+                            </a>
+                            <a href="#">
+                                <p>
+                                    增肌減重
+                                </p>
+                            </a>
+                            <a href="#">
+                                <p>
+                                    其他資訊
+
+                                </p>
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+
+
+            <div class="copyright">
+                <p class="copyrightText">
+                    <a href="">
+                        Copyright 2003-2021, Decathlon Group or its Affiliates.  隱私權政策
+                    </a>
+                </p>
+            </div>
+
+
+    </footer>
+
+    <!-- 手機板Footer -->
+    <footer class="footerMobile  d-lg-none">
+        <div class="container">
+            <div class="footerconMobile row justify-content-around">
+                <div class="personMobile">
+                    <a href="#">
+                        <img src="/png/outline_person_outline_white_24dp.png" alt="">
+                    </a>
+                </div>
+
+                <div class="homeMobile">
+                    <a href="#">
+                        <img src="/png/outline_home_white_24dp.png" alt="">
+                    </a>
+                </div>
+
+                <div class="shoppingcarMobile">
+                    <a href="#">
+                        <img src="/png/outline_shopping_cart_white_24dp.png" alt="">
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const gap = 16;
+
+        const carousel = document.getElementById("carousel"),
+            content = document.getElementById("content"),
+            next = document.getElementById("next"),
+            prev = document.getElementById("prev");
+
+        next.addEventListener("click", e => {
+            carousel.scrollBy(width + gap, 0);
+            if (carousel.scrollWidth !== 0) {
+                prev.style.display = "flex";
+            }
+            if (content.scrollWidth - width - gap <= carousel.scrollLeft + width) {
+                next.style.display = "none";
+            }
+        });
+        prev.addEventListener("click", e => {
+            carousel.scrollBy(-(width + gap), 0);
+            if (carousel.scrollLeft - width - gap <= 0) {
+                prev.style.display = "none";
+            }
+            if (!content.scrollWidth - width - gap <= carousel.scrollLeft + width) {
+                next.style.display = "flex";
+            }
+        });
+
+        let width = carousel.offsetWidth;
+        window.addEventListener("resize", e => (width = carousel.offsetWidth));
+    </script>
+
+    <script src="app.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
 
 </body>
 
