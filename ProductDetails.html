@@ -67,21 +67,26 @@
         </div>
     </div>
 
+
+    <!-- 只是個佔位置用的空白DIV↓-->
+    <div class="col" style="height: 80px;"></div>
+
     <div class="container mt-3">
         <!-- 麵包屑 -->
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb bg-danger">
                 <li class="breadcrumb-item"><a href="#">首頁</a></li>
                 <li class="breadcrumb-item"><a href="#">乳清蛋白</a></li>
-                <li class="breadcrumb-item active text-dark font-weight-bold" aria-current="page">[英國 Myprotein]
+                <li class="breadcrumb-item active text-dark font-weight-bold col" aria-current="page">[英國 Myprotein]
                     濃縮乳清蛋白(2.5kg/包) 奶茶
                 </li>
             </ol>
         </nav>
 
 
+
         <!-- 放商品詳細資訊的區塊 -->
-        <div class="col-12 mt-5">
+        <div class="col mt-3">
             <div class="row">
                 <!--商品圖-->
                 <div class="col-lg-6 pt-3">
@@ -92,7 +97,7 @@
                 </div>
 
                 <!--品名-->
-                <div class="col-6 mb-5 ml-0">
+                <div class="col mb-5 ml-0">
                     <div class="row p-3 border-bottom">
                         <div class="col-7">
                             <h3 class="font-weight-bold">[英國 Myprotein]
@@ -104,15 +109,15 @@
                     </div>
 
                     <!--規格-->
-                    <div class="dropdown row p-3 border-bottom">
+                    <div class="dropdown row p-3 border-bottom col">
                         <button class="btn dropdown-toggle btn-danger" type="button" id="dropdownMenu2"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             商品規格/種類
                         </button>
                         <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                            <button class="dropdown-item" type="button">藍莓起司蛋糕口味</button>
+                            <button class="dropdown-item" type="button">巧克力布朗尼口味</button>
                             <button class="dropdown-item" type="button">奶茶口味</button>
-                            <button class="dropdown-item" type="button">抹茶口味</button>
-                            <button class="dropdown-item" type="button">巧克力口味</button>
                         </div>
                     </div>
 
@@ -131,8 +136,8 @@
                                 data-prod-thumbnail="https://s3.lativ.com.tw/i/52891/52891_M_01_0_n.jpg"
                                 data-prod-price="199">直接購買</button>
 
-                            <button type="button" class="btn btn-danger mb-3 ml-4 mr-3 mt-0" id="btn_follow"
-                                data-prod-id="640">加入購物車</button>
+                            <button type="button" class="mt-1 col-lg-3 col-sm-10 btn btn-danger mb-3 ml-4 mr-3 mt-0"
+                                id="btn_follow" data-prod-id="640">加入購物車</button>
                         </div>
                     </div>
                     <!--按鈕群 -->
@@ -155,26 +160,17 @@
                 <div id="wrapper">
                     <div id="carousel">
                         <div id="content">
-                            <img class="item"
-                                src="https://lh3.googleusercontent.com/0OynDYRoCaQWJIUyiOrUVeoub0mLNrDUcUZrJXF2WHQD77o-F_g2EnqZqVevO954WzD7mC5qTg=w512-h512-l90-rj" />
-                            <img src="https://lh3.googleusercontent.com/e2WxnnYi-F9oN4e0HdLosbq8nlxezfIlxAze2Ba0zE2JR8Es7j-4tNtXc9atwL51FHpaTMtDgmc=w544-h544-l90-rj"
-                                class="item" />
-                            <img src="https://lh3.googleusercontent.com/u6ldIRFJNC856cVGIRsj8It7kz8_0WSTsbdJEOdwjkzZg0lLnn2fFFdhdkCf85HG9O0s2Ak72g=w512-h512-l90-rj"
-                                class="item" />
-                            <img src="https://lh3.googleusercontent.com/nlaN4QEwrQivvVocTsTmksMAaLdiOYRI6fqWgEvr8HeszJdwyOLWSMtVZQkFP_jIO47g-sbZ=w512-h512-l90-rj"
-                                class="item" />
-                            <img src="https://lh3.googleusercontent.com/ivQK-VEDrumpUKopbgrZKKIP70_i0B0r1LLa7PM1ugqtWJcGDRt8yxndLAVKZn3k5djl6_SS2w=w512-h512-l90-rj"
-                                class="item" />
-                            <img src="https://lh3.googleusercontent.com/mH0AFUazs5cUFTMGmXW-yCIhqSgJHbYqt08OjMgON0-x_Q5nsxhOzVwMHyZJ1e3dziP_ja7_=w544-h544-l90-rj"
-                                class="item" />
-                            <img src="https://lh3.googleusercontent.com/H3yFco2fMxBxlQ7wZ7-_OUA8zO8hmqTU9Fik9_lwA6L5pCP_JcCI0OR2XmdAUPzZS_XsayPDnw=w512-h512-l90-rj"
-                                class="item" />
-                            <img src="https://lh3.googleusercontent.com/URcwKIhfH3rPoeSfAKfsuKTwZzyNUv_f9TiLL3Nddscv-cufGX3kh6G8FzkJHzvgWrxKMu_Y36A=w512-h512-l90-rj"
-                                class="item" />
-                            <img src="https://lh3.googleusercontent.com/BkARURW3Om0LVqlubLu1ziGrfKJrkYpSLEQflgH29lmTooSvXQjsHaWnwH1srAPlIMyJKjWqFIU=w512-h512-l90-rj"
-                                class="item" />
-                            <img src="https://lh3.googleusercontent.com/JMSMnpSyPX1ZTgodYRg5y98ZeZ5AUMBKf2TMRXD88_i6Qkj6-CwfkqmE0X4THMIPVydnYBNVUg=w512-h512-l90-rj"
-                                class="item" />
+                            <img class="item" src="./img/getImage (1).jpg">
+                            <img class="item" src="./img/getImage (2).jpg">
+                            <img class="item" src="./img/getImage (3).jpg">
+                            <img class="item" src="./img/getImage (4).jpg">
+                            <img class="item" src="./img/getImage (5).jpg">
+                            <img class="item" src="./img/getImage (6).jpg">
+                            <img class="item" src="./img/getImage (7).jpg">
+                            <img class="item" src="./img/getImage (8).jpg">
+                            <img class="item" src="./img/getImage (9).jpg">
+                            <img class="item" src="./img/getImage (10).jpg">
+
                         </div>
                     </div>
                     <button id="prev">

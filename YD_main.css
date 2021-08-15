@@ -53,102 +53,13 @@ font-size:50px;
 }
 
 
-/* <!--帶下拉選單的分頁標籤--> */
-
-ul {
-    /* 取消ul預設的內縮及樣式 */
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  
-  li{
-    list-style-type:none;
-
-  }
-  ul.drop-down-menu {
-    display: inline-block;
-    font-size: 16px;
-
-  }
-  
-  ul.drop-down-menu li {
-    position: relative;
-    white-space: nowrap;
-    border: #ef5c28 1px solid;
-
-  }
-  
-  ul.drop-down-menu>li:last-child {
-    border-right: none;
-  }
-  
-  ul.drop-down-menu>li {
-    float: left;
-    /* 只有第一層是靠左對齊*/
-  }
-  
-  ul.drop-down-menu a {
-    background-color: #fff;
-    color: #333;
-    display: block;
-    padding: 0 30px;
-    text-decoration: none;
-    line-height: 40px;
-  }
-  
-  ul.drop-down-menu a:hover {
-    /* 滑鼠滑入按鈕變色*/
-    background-color: #ef5c28;
-    color: #fff;
-  }
-  
-  ul.drop-down-menu li:hover>a {
-    /* 滑鼠移入次選單上層按鈕保持變色*/
-    background-color: #dc3545;
-    color: #fff;
-  }
-  
-  ul.drop-down-menu ul {
-    position: absolute;
-    z-index: 99;
-    left: -1px;
-    top: 100%;
-    min-width: 180px;
-  }
-  
-  ul.drop-down-menu ul li {
-    border-bottom: #dc3545; 1px solid;
-  }
-  
-  ul.drop-down-menu ul li:last-child {
-    border-bottom: none;
-  }
-  
-  ul.drop-down-menu ul ul {
-    /*第三層以後的選單出現位置與第二層不同*/
-    z-index: 999;
-    top: 10px;
-    left: 71%;
-  }
-  
-  ul.drop-down-menu ul {
-    /*隱藏次選單*/
-    display: none;
-  }
-  
-  ul.drop-down-menu li:hover>ul {
-    /* 滑鼠滑入展開次選單*/
-    display: block;
-  }
-
-  #YD-section-wrap{
+/* <!--介紹區域--> */
+#YD-section-wrap{
   border:1px solid #dc3545;
   width: 100%;
   height:auto;
-  text-overflow: ellipsis; 
-
 }
+
 #YD-section{
 text-align:left;
 }
@@ -166,23 +77,23 @@ text-align:left;
 }
 
 #YD-img{
-  height: auto;
+  height:auto;
   width: 100%;
   text-align: right;
 }
 
 .YD-item{
   position: relative;
-  width: 80%;
-  height: 400px;
+  width: 75%;
+  height: 350px;
 background-color: #dc3545;
 }
 
 .YD-itemImg{
   position: absolute;
   top: 50px;
-  left:150px;
-  width:90%;
+  left:50px;
+  width:70%;
   height:300px;
   z-index: 1;
   background-image: url('./img/myp_view_milk.jpg');
@@ -194,8 +105,8 @@ background-color: #dc3545;
 {
   position: absolute;
   top: 50px;
-  left:150px;
-  width:90%;
+  left:50px;
+  width:80%;
   height:300px;
   z-index: 1;
   background-image: url('./img/class01.jpg');
